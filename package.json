@@ -1,0 +1,63 @@
+{
+  "name": "kane-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "set NODE_ENV=development&&/Users/zhixing/Documents/huangkai_cvte_resumeSys/node_modules/webpack/bin/webpack.js --config webpack.config",
+    "start": "NODE_ENV=development node server/server.js",
+    "dll": "/Users/zhixing/Documents/huangkai_cvte_resumeSys/node_modules/webpack/bin/webpack.js --config ddl.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wudao370859172/Kane-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wudao370859172/Kane-components/issues"
+  },
+  "homepage": "https://github.com/wudao370859172/Kane-components#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "express": "^4.16.3",
+    "file-loader": "^2.0.0",
+    "peer": "^0.2.10",
+    "reflect-metadata": "^0.1.12",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.1",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
+    "ajv": "^6.5.4",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-hot-loader": "^1.4.2",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "typescript": "^3.2.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-command": "^0.4.1",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-hot-middleware": "^2.22.3"
+  }
+}
